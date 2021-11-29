@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: rgb(148, 146, 146);
+}
+nav {
+  background-color: black;
+  height: 80px;
+  width: 100%;
+  h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+}
+aside {
+  position: fixed;
+  background: rgb(58, 58, 58);
+  height: 100%;
+  width: 300px;
+  ul {
+    list-style: none;
+    li {
+      margin: 10px 0;
+      cursor: pointer;
+      &:hover {
+        background: rgb(140, 140, 140);
+      }
+      &:active {
+        background: white;
+      }
+      &:focus {
+        background: red;
+      }
+      &:hover i {
+        color: black;
+      }
+      &:hover a {
+        color: black;
+      }
+      i {
+        color: white;
+        transition: 0.5s;
+      }
+      a {
+        color: white;
+        transition: 0.5s;
+      }
+    }
+  }
+}
