@@ -21,7 +21,7 @@ body {
 
 .sidenav {
   position: fixed;
-  background: #3a3a3a;
+  background: #212529;
   height: 100%;
   width: 300px;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 .sidenav_list_items li:hover {
-  background: #878787;
+  background: #c1c1c1;
 }
 
 .sidenav_list_items li:hover a {
@@ -52,11 +52,15 @@ body {
 }
 
 .sidenav_list_items .collapse_btn:hover .collapse_items {
-  background: #3a3a3a;
+  background: #212529;
 }
 
 .sidenav_list_items .collapse_items {
-  background: #686868;
+  background: #2d3237;
+}
+
+.sidenav_list_items .collapse_items li:hover {
+  color: black;
 }
 
 .banner {

@@ -17,7 +17,7 @@ body {
 }
 .sidenav {
   position: fixed;
-  background: rgb(58, 58, 58);
+  background: #212529;
   height: 100%;
   width: 300px;
   &_list_items {
@@ -25,7 +25,7 @@ body {
       list-style: none;
       cursor: pointer;
       &:hover {
-        background: rgb(135, 135, 135);
+        background: rgb(193, 193, 193);
       }
       &:hover a {
         color: black;
@@ -41,11 +41,16 @@ body {
       }
     }
     .collapse_btn:hover .collapse_items {
-      background: rgb(58, 58, 58);
+      background: rgb(33, 37, 41);
     }
     .collapse {
       &_items {
-        background: rgb(104, 104, 104);
+        background: rgb(45, 50, 55);
+        li {
+          &:hover {
+            color: black;
+          }
+        }
       }
     }
   }
