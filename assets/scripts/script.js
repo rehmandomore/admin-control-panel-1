@@ -5,7 +5,7 @@ function open_close() {
   if (menuState === 0) {
     menuState = 1;
     document.getElementById("side").style.marginLeft = "-300px";
-    document.getElementById("side").style.transition = "0.8s";
+    document.getElementById("side").style.transition = "0.7s";
   } else {
     menuState = 0;
     document.getElementById("side").style.marginLeft = "0";

@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -8,48 +9,60 @@ body {
   background: #949292;
 }
 
-nav {
+.nav {
   background-color: black;
   height: 80px;
   width: 100%;
 }
-nav h1 {
+
+.nav_logo {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
-aside {
+.sidenav {
   position: fixed;
   background: #3a3a3a;
   height: 100%;
   width: 300px;
 }
-aside ul {
+
+.sidenav_list_items li {
   list-style: none;
-}
-aside ul li {
-  margin: 10px 0;
   cursor: pointer;
 }
-aside ul li:hover {
-  background: #8c8c8c;
+
+.sidenav_list_items li:hover {
+  background: #878787;
 }
-aside ul li:active {
-  background: white;
-}
-aside ul li:focus {
-  background: red;
-}
-aside ul li:hover i {
+
+.sidenav_list_items li:hover a {
   color: black;
 }
-aside ul li:hover a {
+
+.sidenav_list_items li:hover i {
   color: black;
 }
-aside ul li i {
+
+.sidenav_list_items li i {
   color: white;
-  transition: 0.5s;
 }
-aside ul li a {
+
+.sidenav_list_items li a {
   color: white;
-  transition: 0.5s;
+}
+
+.sidenav_list_items .collapse_btn:hover .collapse_items {
+  background: #3a3a3a;
+}
+
+.sidenav_list_items .collapse_items {
+  background: #686868;
+}
+
+.banner {
+  height: 400px;
+}
+
+.banner_heading {
+  font-size: 4rem;
 }
