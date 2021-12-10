@@ -20,6 +20,7 @@ body {
   background: #212529;
   height: 100%;
   width: 300px;
+  display: none;
   &_list_items {
     li {
       list-style: none;
@@ -56,8 +57,14 @@ body {
   }
 }
 .banner {
+  margin-left: 320px;
   height: 400px;
   &_heading {
     font-size: 4rem;
+  }
+}
+@media only screen and(max-width:991px) {
+  .banner {
+    margin-left: 0px;
   }
 }

@@ -4,11 +4,10 @@ var menuState = 0;
 function open_close() {
   if (menuState === 0) {
     menuState = 1;
-    document.getElementById("side").style.marginLeft = "-300px";
-    document.getElementById("side").style.transition = "0.7s";
+    document.getElementById("side").style.display = "none";
   } else {
     menuState = 0;
-    document.getElementById("side").style.marginLeft = "0";
+    document.getElementById("side").style.display = "block";
   }
   console.log(menuState);
 }
